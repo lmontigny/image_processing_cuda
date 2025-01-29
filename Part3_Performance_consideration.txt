@@ -1,0 +1,7 @@
+Part 3: Performance Consideration
+
+    Hardware Optimizations: The 2D kernel implementation can better utilize the GPU's memory coalescing capabilities, as it accesses memory in a more structured way. This can lead to better performance compared to the 1D kernel, especially for larger images.
+
+    Scalability: The 2D kernel is more scalable for larger images (e.g., 3848 × 2168) because it can better handle the increased complexity of memory access patterns. The 1D kernel may suffer from performance degradation due to less efficient memory access patterns as the image size increases.
+
+    Recommendation: For efficient image processing on larger datasets, the 2D kernel implementation is recommended due to its better memory access patterns and scalability.
