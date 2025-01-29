@@ -1,0 +1,9 @@
+Bonus: Optimization (Optional)
+
+    Shared Memory: Use shared memory to cache data that is accessed multiple times by threads within the same block.
+
+    Coalesced Memory Access: Ensure that memory accesses are coalesced to minimize memory latency.
+
+    Occupancy: Optimize the number of threads per block to maximize GPU occupancy.
+
+    Asynchronous Transfers: Use asynchronous memory transfers to overlap computation and data transfer.
